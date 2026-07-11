@@ -6,7 +6,7 @@ import (
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w,"Hello World")
+	fmt.Fprintln(w, "Hello World")
 }
 
 
@@ -21,6 +21,4 @@ func main() {
 	if err != nil {
 		fmt.Println("Server runtime error: " + err.Error())
 	}
-
-
 }
